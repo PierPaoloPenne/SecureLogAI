@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+secrets.toml
+
+# Model artifacts (regenerate, don't version large binaries)
+*.joblib
+*.pkl
+
+# Runtime outputs (sample outputs are committed on purpose for the demo;
+# re-generated files during local runs should not be)
+outputs/*.tmp
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/

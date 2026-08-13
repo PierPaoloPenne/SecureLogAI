@@ -1,0 +1,505 @@
+timestamp,level,source,message,anomaly_score,is_anomaly
+2026-06-01 03:12:26.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,100.0,True
+2026-06-02 00:48:15.000000,WARN,web-frontend,GET /api/v1/products status=200,99.46,True
+2026-06-01 03:12:24.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,95.19,True
+2026-06-01 03:12:22.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,90.67,True
+2026-06-01 03:12:20.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,87.66,True
+2026-06-02 03:02:52.000000,INFO,auth-service,user 7368 logged in,85.25,True
+2026-06-01 03:12:00.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,85.08,True
+2026-06-01 03:12:18.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,84.16,True
+2026-06-01 17:12:16.000000,INFO,db-primary,cache hit for key session:1289,81.27,True
+2026-06-01 16:43:33.000000,INFO,auth-service,scheduled health check passed,80.2,True
+2026-06-02 00:27:19.000000,INFO,db-primary,connection pool at 42% capacity,79.59,True
+2026-06-01 03:12:16.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,79.42,True
+2026-06-01 03:12:02.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,77.88,True
+2026-06-01 03:12:14.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,75.9,True
+2026-06-01 03:12:04.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,74.01,True
+2026-06-01 03:12:08.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,73.66,True
+2026-06-01 03:12:12.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,73.42,True
+2026-06-01 03:12:10.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,73.08,True
+2026-06-01 03:12:06.000000,ERROR,auth-service,failed login attempt for user 4471 — invalid password,72.83,True
+2026-06-01 11:58:15.775040,ERROR,api-gateway,unauthorized access attempt to /admin/config,71.71,True
+2026-06-01 20:04:00.000000,INFO,db-primary,user 5223 logged out,69.32,True
+2026-06-01 15:14:00.000000,INFO,payment-service,GET /api/v1/products status=200,68.37,True
+2026-06-01 22:17:36.000000,INFO,db-primary,user 1770 logged in,67.04,True
+2026-06-01 15:37:31.660313,ERROR,api-gateway,"unexpected process termination, signal=SIGSEGV",63.92,True
+2026-06-01 05:41:59.688930,ERROR,payment-service,unauthorized access attempt to /admin/config,63.59,True
+2026-06-01 06:44:31.000000,WARN,auth-service,request completed in 33ms,60.19,True
+2026-06-01 00:24:54.000000,WARN,web-frontend,request completed in 76ms,58.62,False
+2026-06-01 16:44:26.000000,INFO,auth-service,connection pool at 42% capacity,55.31,False
+2026-06-01 06:40:02.316430,CRITICAL,web-frontend,SQL syntax error near 'UNION SELECT' in query,53.77,False
+2026-06-01 12:56:13.000000,INFO,db-primary,scheduled health check passed,53.53,False
+2026-06-01 00:04:45.000000,INFO,api-gateway,request completed in 33ms,52.8,False
+2026-06-01 10:26:07.000000,INFO,api-gateway,connection pool at 42% capacity,49.21,False
+2026-06-01 00:59:39.457714,CRITICAL,web-frontend,repeated 401 responses from IP 203.0.113.78,48.32,False
+2026-06-01 00:00:39.000000,WARN,auth-service,GET /api/v1/orders status=200,48.14,False
+2026-06-01 15:13:09.000000,INFO,web-frontend,GET /api/v1/orders status=200,47.19,False
+2026-06-01 04:26:09.996002,CRITICAL,auth-service,repeated 401 responses from IP 203.0.113.157,47.18,False
+2026-06-01 00:09:54.000000,WARN,db-primary,request completed in 83ms,46.86,False
+2026-06-01 11:09:25.000000,INFO,payment-service,connection pool at 42% capacity,46.56,False
+2026-06-01 04:20:11.000000,WARN,auth-service,GET /api/v1/orders status=200,46.1,False
+2026-06-01 15:28:26.000000,INFO,web-frontend,request completed in 99ms,45.84,False
+2026-06-01 08:18:18.077307,ERROR,web-frontend,"connection pool exhausted, 100% capacity",45.5,False
+2026-06-01 01:06:29.000000,WARN,db-primary,cache hit for key session:9077,43.62,False
+2026-06-01 00:16:59.000000,WARN,db-primary,connection pool at 42% capacity,43.35,False
+2026-06-01 00:07:40.000000,WARN,db-primary,cache hit for key session:7320,42.82,False
+2026-06-01 09:27:33.000000,INFO,db-primary,GET /api/v1/orders status=200,42.25,False
+2026-06-01 11:14:43.000000,INFO,db-primary,GET /api/v1/orders status=200,42.08,False
+2026-06-01 00:13:23.000000,INFO,web-frontend,user 5577 logged in,41.78,False
+2026-06-01 13:13:18.000000,INFO,web-frontend,cache hit for key session:3016,41.68,False
+2026-06-01 00:11:26.000000,WARN,api-gateway,GET /api/v1/products status=200,41.35,False
+2026-06-01 00:47:45.000000,INFO,web-frontend,user 4362 logged in,40.41,False
+2026-06-01 03:34:25.000000,INFO,payment-service,user 4362 logged out,40.35,False
+2026-06-01 00:33:27.000000,INFO,db-primary,GET /api/v1/orders status=200,40.33,False
+2026-06-01 04:21:09.240079,ERROR,auth-service,SQL syntax error near 'UNION SELECT' in query,39.93,False
+2026-06-01 15:15:30.000000,INFO,payment-service,request completed in 271ms,39.75,False
+2026-06-01 04:05:15.000000,WARN,web-frontend,connection pool at 42% capacity,39.51,False
+2026-06-01 02:15:07.000000,WARN,api-gateway,user 4341 logged in,39.47,False
+2026-06-01 00:10:37.000000,INFO,auth-service,cache hit for key session:4472,39.42,False
+2026-06-01 02:56:55.000000,WARN,payment-service,connection pool at 42% capacity,39.39,False
+2026-06-01 01:15:23.000000,WARN,db-primary,user 8830 logged in,39.31,False
+2026-06-01 00:01:16.000000,WARN,payment-service,scheduled health check passed,39.28,False
+2026-06-01 00:13:42.000000,WARN,web-frontend,GET /api/v1/orders status=200,39.18,False
+2026-06-01 00:43:10.000000,WARN,db-primary,GET /api/v1/orders status=200,39.18,False
+2026-06-01 11:14:01.000000,INFO,api-gateway,scheduled health check passed,39.18,False
+2026-06-01 00:17:27.000000,INFO,db-primary,cache hit for key session:8411,39.15,False
+2026-06-01 11:13:04.000000,INFO,web-frontend,user 3627 logged in,38.94,False
+2026-06-01 01:33:55.000000,WARN,web-frontend,request completed in 30ms,38.66,False
+2026-06-01 00:32:58.000000,INFO,db-primary,GET /api/v1/products status=200,38.47,False
+2026-06-01 00:39:49.000000,WARN,web-frontend,cache hit for key session:1605,38.45,False
+2026-06-01 00:12:28.000000,WARN,payment-service,scheduled health check passed,38.16,False
+2026-06-01 00:24:18.000000,INFO,api-gateway,cache hit for key session:7162,38.06,False
+2026-06-01 00:10:51.000000,INFO,auth-service,cache hit for key session:2372,38.06,False
+2026-06-01 04:09:35.000000,INFO,payment-service,cache hit for key session:5577,38.05,False
+2026-06-01 00:13:42.000000,WARN,api-gateway,scheduled health check passed,37.8,False
+2026-06-01 05:27:01.783635,ERROR,web-frontend,SQL syntax error near 'UNION SELECT' in query,37.75,False
+2026-06-01 13:22:59.000000,INFO,web-frontend,request completed in 23ms,37.61,False
+2026-06-01 00:09:35.000000,WARN,db-primary,cache hit for key session:2276,37.42,False
+2026-06-01 00:05:09.000000,INFO,api-gateway,user 6957 logged out,37.39,False
+2026-06-01 02:08:11.000000,WARN,web-frontend,GET /api/v1/orders status=200,37.05,False
+2026-06-01 10:53:44.000000,INFO,auth-service,cache hit for key session:4382,36.91,False
+2026-06-01 13:41:49.000000,INFO,web-frontend,GET /api/v1/products status=200,36.88,False
+2026-06-01 00:37:25.000000,WARN,api-gateway,user 5351 logged out,36.83,False
+2026-06-01 00:03:02.000000,INFO,db-primary,request completed in 169ms,36.52,False
+2026-06-01 01:13:14.000000,WARN,db-primary,GET /api/v1/products status=200,36.22,False
+2026-06-01 01:54:43.000000,WARN,db-primary,GET /api/v1/products status=200,35.97,False
+2026-06-01 00:46:53.000000,INFO,api-gateway,connection pool at 42% capacity,35.88,False
+2026-06-01 00:32:40.000000,INFO,db-primary,connection pool at 42% capacity,35.85,False
+2026-06-01 01:38:16.717360,ERROR,auth-service,"unexpected process termination, signal=SIGSEGV",35.83,False
+2026-06-01 11:25:51.000000,INFO,auth-service,scheduled health check passed,35.65,False
+2026-06-01 12:47:42.000000,INFO,web-frontend,GET /api/v1/products status=200,35.59,False
+2026-06-01 12:27:23.000000,INFO,web-frontend,GET /api/v1/orders status=200,35.28,False
+2026-06-01 13:00:57.000000,INFO,api-gateway,GET /api/v1/orders status=200,33.97,False
+2026-06-01 01:17:42.000000,INFO,db-primary,scheduled health check passed,33.13,False
+2026-06-01 05:54:40.000000,INFO,payment-service,cache hit for key session:1790,32.72,False
+2026-06-01 04:36:40.000000,INFO,db-primary,request completed in 299ms,32.45,False
+2026-06-01 00:03:34.000000,INFO,web-frontend,scheduled health check passed,32.38,False
+2026-06-01 04:27:50.000000,INFO,payment-service,cache hit for key session:4805,32.38,False
+2026-06-01 07:57:46.000000,INFO,auth-service,request completed in 36ms,32.36,False
+2026-06-01 08:52:54.000000,INFO,payment-service,connection pool at 42% capacity,31.5,False
+2026-06-01 01:11:26.000000,WARN,api-gateway,user 4767 logged in,31.48,False
+2026-06-01 00:43:57.000000,INFO,web-frontend,scheduled health check passed,31.46,False
+2026-06-01 00:38:20.000000,WARN,payment-service,user 6025 logged in,31.45,False
+2026-06-01 10:36:25.000000,INFO,auth-service,cache hit for key session:5227,31.32,False
+2026-06-01 10:30:13.000000,INFO,auth-service,connection pool at 42% capacity,30.8,False
+2026-06-01 13:32:37.000000,INFO,api-gateway,user 1318 logged in,30.71,False
+2026-06-01 03:05:05.000000,INFO,auth-service,request completed in 95ms,30.63,False
+2026-06-01 00:38:08.000000,INFO,api-gateway,GET /api/v1/products status=200,30.52,False
+2026-06-01 05:14:48.000000,INFO,auth-service,cache hit for key session:4517,29.9,False
+2026-06-01 05:26:47.000000,INFO,db-primary,connection pool at 42% capacity,29.88,False
+2026-06-01 05:27:25.000000,INFO,db-primary,connection pool at 42% capacity,29.61,False
+2026-06-01 01:19:50.000000,INFO,payment-service,GET /api/v1/orders status=200,29.6,False
+2026-06-01 00:01:11.000000,INFO,api-gateway,GET /api/v1/products status=200,29.08,False
+2026-06-01 09:25:01.000000,INFO,web-frontend,GET /api/v1/orders status=200,29.04,False
+2026-06-01 00:18:55.000000,INFO,db-primary,GET /api/v1/products status=200,28.8,False
+2026-06-01 00:52:56.000000,INFO,db-primary,GET /api/v1/products status=200,28.67,False
+2026-06-01 00:20:59.000000,INFO,web-frontend,GET /api/v1/products status=200,28.63,False
+2026-06-01 09:29:20.000000,INFO,web-frontend,request completed in 282ms,28.2,False
+2026-06-01 10:11:57.000000,INFO,auth-service,GET /api/v1/orders status=200,27.81,False
+2026-06-01 01:53:11.000000,INFO,db-primary,request completed in 88ms,27.75,False
+2026-06-01 08:19:49.000000,INFO,auth-service,GET /api/v1/products status=200,27.73,False
+2026-06-01 00:27:02.000000,INFO,db-primary,request completed in 57ms,27.63,False
+2026-06-01 11:47:24.000000,INFO,auth-service,user 7765 logged in,27.59,False
+2026-06-01 00:30:02.000000,INFO,db-primary,GET /api/v1/orders status=200,27.54,False
+2026-06-01 03:51:36.000000,INFO,web-frontend,scheduled health check passed,27.53,False
+2026-06-01 02:25:41.000000,INFO,db-primary,request completed in 220ms,27.4,False
+2026-06-01 06:47:44.000000,INFO,api-gateway,connection pool at 42% capacity,27.3,False
+2026-06-01 00:35:27.000000,INFO,api-gateway,GET /api/v1/orders status=200,27.14,False
+2026-06-01 00:00:54.000000,INFO,web-frontend,request completed in 10ms,27.11,False
+2026-06-01 00:30:29.000000,INFO,db-primary,GET /api/v1/orders status=200,27.1,False
+2026-06-01 07:12:51.000000,INFO,web-frontend,cache hit for key session:5843,27.02,False
+2026-06-01 12:01:56.000000,INFO,api-gateway,GET /api/v1/orders status=200,26.73,False
+2026-06-01 00:32:33.000000,INFO,db-primary,request completed in 183ms,26.72,False
+2026-06-01 09:13:05.000000,INFO,auth-service,user 3957 logged out,26.6,False
+2026-06-01 00:43:50.000000,INFO,web-frontend,request completed in 283ms,26.27,False
+2026-06-01 00:24:18.000000,INFO,web-frontend,connection pool at 42% capacity,25.16,False
+2026-06-01 02:44:55.000000,INFO,api-gateway,connection pool at 42% capacity,25.07,False
+2026-06-01 02:21:33.000000,INFO,db-primary,cache hit for key session:7713,24.62,False
+2026-06-01 07:52:14.000000,INFO,api-gateway,user 1219 logged out,24.52,False
+2026-06-01 00:12:40.000000,INFO,payment-service,user 2479 logged out,24.33,False
+2026-06-01 02:31:51.000000,INFO,db-primary,connection pool at 42% capacity,24.16,False
+2026-06-01 00:11:36.000000,INFO,api-gateway,user 6613 logged out,24.02,False
+2026-06-01 00:16:07.000000,INFO,auth-service,request completed in 252ms,23.93,False
+2026-06-01 07:27:55.000000,INFO,payment-service,scheduled health check passed,23.9,False
+2026-06-01 01:34:10.000000,INFO,web-frontend,connection pool at 42% capacity,23.88,False
+2026-06-01 12:58:20.000000,INFO,web-frontend,user 7535 logged in,23.78,False
+2026-06-01 07:20:43.000000,INFO,web-frontend,cache hit for key session:8130,23.73,False
+2026-06-01 06:08:00.000000,INFO,auth-service,request completed in 200ms,23.72,False
+2026-06-01 02:52:24.000000,INFO,db-primary,connection pool at 42% capacity,23.67,False
+2026-06-01 04:44:14.000000,INFO,api-gateway,cache hit for key session:2384,23.66,False
+2026-06-01 01:21:00.000000,INFO,auth-service,cache hit for key session:5391,23.48,False
+2026-06-01 00:28:06.000000,INFO,auth-service,connection pool at 42% capacity,23.41,False
+2026-06-01 08:31:52.000000,INFO,auth-service,GET /api/v1/products status=200,23.26,False
+2026-06-01 01:38:51.000000,INFO,api-gateway,connection pool at 42% capacity,23.15,False
+2026-06-01 00:02:51.000000,INFO,payment-service,connection pool at 42% capacity,23.12,False
+2026-06-01 00:16:06.000000,INFO,api-gateway,cache hit for key session:4263,23.11,False
+2026-06-01 08:13:36.000000,INFO,payment-service,GET /api/v1/products status=200,23.03,False
+2026-06-01 09:31:40.000000,INFO,payment-service,GET /api/v1/orders status=200,23.03,False
+2026-06-01 01:35:15.000000,INFO,api-gateway,cache hit for key session:7338,22.98,False
+2026-06-01 00:04:18.000000,INFO,payment-service,user 9387 logged out,22.93,False
+2026-06-01 08:50:55.000000,INFO,api-gateway,GET /api/v1/orders status=200,22.91,False
+2026-06-01 06:40:08.000000,INFO,db-primary,scheduled health check passed,22.79,False
+2026-06-01 00:54:02.000000,INFO,auth-service,connection pool at 42% capacity,22.65,False
+2026-06-01 00:04:03.000000,INFO,web-frontend,connection pool at 42% capacity,22.56,False
+2026-06-01 06:07:14.000000,INFO,api-gateway,GET /api/v1/orders status=200,22.41,False
+2026-06-01 06:51:10.000000,INFO,payment-service,scheduled health check passed,22.15,False
+2026-06-01 07:03:14.000000,INFO,auth-service,connection pool at 42% capacity,21.64,False
+2026-06-01 03:54:04.000000,INFO,auth-service,GET /api/v1/products status=200,21.59,False
+2026-06-01 00:08:23.000000,INFO,payment-service,cache hit for key session:3122,21.54,False
+2026-06-01 06:53:09.000000,INFO,auth-service,cache hit for key session:3085,21.39,False
+2026-06-01 02:45:54.000000,INFO,api-gateway,scheduled health check passed,21.07,False
+2026-06-01 00:10:34.000000,INFO,auth-service,cache hit for key session:8125,20.91,False
+2026-06-01 07:25:09.000000,INFO,db-primary,GET /api/v1/orders status=200,20.88,False
+2026-06-01 09:54:59.000000,INFO,payment-service,GET /api/v1/orders status=200,20.48,False
+2026-06-01 00:46:47.000000,INFO,api-gateway,cache hit for key session:6183,20.38,False
+2026-06-01 05:49:49.000000,INFO,web-frontend,GET /api/v1/products status=200,20.38,False
+2026-06-01 00:36:09.000000,INFO,payment-service,cache hit for key session:4910,20.25,False
+2026-06-01 00:48:00.000000,INFO,payment-service,GET /api/v1/products status=200,20.24,False
+2026-06-01 00:36:33.000000,INFO,api-gateway,cache hit for key session:3117,20.12,False
+2026-06-01 01:40:16.000000,INFO,payment-service,cache hit for key session:5997,20.0,False
+2026-06-01 05:22:55.000000,INFO,auth-service,request completed in 170ms,19.67,False
+2026-06-01 00:11:41.000000,INFO,auth-service,GET /api/v1/products status=200,19.64,False
+2026-06-01 03:17:29.000000,INFO,payment-service,cache hit for key session:3705,19.58,False
+2026-06-01 00:19:08.000000,INFO,api-gateway,GET /api/v1/products status=200,19.37,False
+2026-06-01 02:48:28.000000,INFO,auth-service,scheduled health check passed,19.37,False
+2026-06-01 08:02:24.000000,INFO,payment-service,GET /api/v1/orders status=200,19.3,False
+2026-06-01 00:18:05.000000,INFO,auth-service,GET /api/v1/products status=200,19.17,False
+2026-06-01 02:51:17.000000,INFO,db-primary,request completed in 140ms,19.06,False
+2026-06-01 02:51:35.000000,INFO,db-primary,scheduled health check passed,18.98,False
+2026-06-01 00:27:10.000000,INFO,auth-service,request completed in 44ms,18.95,False
+2026-06-01 00:22:56.000000,INFO,api-gateway,request completed in 55ms,18.93,False
+2026-06-01 05:11:39.000000,INFO,api-gateway,connection pool at 42% capacity,18.79,False
+2026-06-01 03:29:07.000000,INFO,api-gateway,user 6361 logged in,18.71,False
+2026-06-01 05:58:35.000000,INFO,web-frontend,cache hit for key session:6470,18.61,False
+2026-06-01 00:29:30.000000,INFO,db-primary,GET /api/v1/products status=200,18.51,False
+2026-06-01 00:18:03.000000,INFO,db-primary,GET /api/v1/products status=200,18.48,False
+2026-06-01 00:09:26.000000,INFO,api-gateway,GET /api/v1/products status=200,18.46,False
+2026-06-01 00:07:32.000000,INFO,db-primary,request completed in 87ms,18.34,False
+2026-06-01 04:18:05.000000,INFO,api-gateway,user 2300 logged out,18.33,False
+2026-06-01 00:11:55.000000,INFO,auth-service,GET /api/v1/products status=200,18.2,False
+2026-06-01 09:40:43.000000,INFO,payment-service,user 5214 logged out,18.09,False
+2026-06-01 07:06:17.000000,INFO,auth-service,scheduled health check passed,18.09,False
+2026-06-01 05:35:10.000000,INFO,auth-service,scheduled health check passed,18.09,False
+2026-06-01 01:11:13.000000,INFO,web-frontend,request completed in 13ms,17.78,False
+2026-06-01 00:06:50.000000,INFO,auth-service,request completed in 241ms,17.77,False
+2026-06-01 03:28:21.000000,INFO,api-gateway,cache hit for key session:8817,17.73,False
+2026-06-01 00:07:09.000000,INFO,api-gateway,request completed in 53ms,17.68,False
+2026-06-01 01:38:49.000000,INFO,auth-service,user 2070 logged in,17.6,False
+2026-06-01 01:36:12.000000,INFO,api-gateway,GET /api/v1/orders status=200,17.53,False
+2026-06-01 06:59:32.000000,INFO,api-gateway,GET /api/v1/products status=200,17.37,False
+2026-06-01 00:23:13.000000,INFO,auth-service,GET /api/v1/products status=200,17.3,False
+2026-06-01 06:56:45.000000,INFO,payment-service,GET /api/v1/products status=200,17.2,False
+2026-06-01 06:33:20.000000,INFO,payment-service,GET /api/v1/orders status=200,17.16,False
+2026-06-01 08:12:06.000000,INFO,web-frontend,GET /api/v1/orders status=200,17.07,False
+2026-06-01 00:24:04.000000,INFO,api-gateway,user 1434 logged in,17.02,False
+2026-06-01 02:37:37.000000,INFO,db-primary,request completed in 82ms,17.0,False
+2026-06-01 07:57:28.000000,INFO,web-frontend,user 9052 logged out,16.98,False
+2026-06-01 01:11:52.000000,INFO,web-frontend,scheduled health check passed,16.98,False
+2026-06-01 06:16:08.000000,INFO,api-gateway,GET /api/v1/products status=200,16.73,False
+2026-06-01 04:34:46.000000,INFO,web-frontend,GET /api/v1/products status=200,16.7,False
+2026-06-01 01:17:37.000000,INFO,db-primary,scheduled health check passed,16.69,False
+2026-06-01 04:05:17.000000,INFO,auth-service,cache hit for key session:8613,16.67,False
+2026-06-01 05:01:01.000000,INFO,payment-service,scheduled health check passed,16.61,False
+2026-06-01 04:48:25.000000,INFO,payment-service,request completed in 143ms,16.57,False
+2026-06-01 05:47:15.000000,INFO,db-primary,connection pool at 42% capacity,16.53,False
+2026-06-01 02:58:51.000000,INFO,api-gateway,request completed in 25ms,16.49,False
+2026-06-01 01:23:46.000000,INFO,db-primary,scheduled health check passed,16.46,False
+2026-06-01 02:10:40.000000,INFO,web-frontend,request completed in 68ms,16.39,False
+2026-06-01 00:16:03.000000,INFO,api-gateway,request completed in 257ms,16.38,False
+2026-06-01 04:54:41.000000,INFO,web-frontend,connection pool at 42% capacity,16.32,False
+2026-06-01 00:34:02.000000,INFO,web-frontend,connection pool at 42% capacity,16.19,False
+2026-06-01 01:19:49.000000,INFO,payment-service,GET /api/v1/orders status=200,16.17,False
+2026-06-01 00:21:15.000000,INFO,auth-service,GET /api/v1/orders status=200,16.12,False
+2026-06-01 00:27:30.000000,INFO,payment-service,scheduled health check passed,15.99,False
+2026-06-01 05:53:52.000000,INFO,payment-service,GET /api/v1/products status=200,15.75,False
+2026-06-01 01:54:41.000000,INFO,web-frontend,cache hit for key session:1054,15.61,False
+2026-06-01 02:33:11.000000,INFO,web-frontend,request completed in 63ms,15.58,False
+2026-06-01 04:41:59.000000,INFO,payment-service,scheduled health check passed,15.54,False
+2026-06-01 03:26:55.000000,INFO,db-primary,request completed in 218ms,15.45,False
+2026-06-01 00:20:34.000000,INFO,web-frontend,GET /api/v1/orders status=200,15.45,False
+2026-06-01 00:21:57.000000,INFO,payment-service,GET /api/v1/orders status=200,15.44,False
+2026-06-01 00:36:08.000000,INFO,api-gateway,scheduled health check passed,15.36,False
+2026-06-01 00:40:10.000000,INFO,auth-service,scheduled health check passed,15.35,False
+2026-06-01 00:32:24.000000,INFO,db-primary,request completed in 129ms,15.23,False
+2026-06-01 00:08:31.000000,INFO,web-frontend,GET /api/v1/orders status=200,15.21,False
+2026-06-01 03:01:32.000000,INFO,auth-service,connection pool at 42% capacity,15.13,False
+2026-06-01 06:57:18.000000,INFO,web-frontend,user 6954 logged out,15.03,False
+2026-06-01 05:59:46.000000,INFO,db-primary,GET /api/v1/products status=200,15.0,False
+2026-06-01 03:33:57.000000,INFO,api-gateway,request completed in 112ms,14.92,False
+2026-06-01 00:07:17.000000,INFO,auth-service,GET /api/v1/orders status=200,14.88,False
+2026-06-01 02:58:09.000000,INFO,db-primary,user 5440 logged out,14.85,False
+2026-06-01 00:31:00.000000,INFO,payment-service,GET /api/v1/orders status=200,14.81,False
+2026-06-01 04:43:22.000000,INFO,web-frontend,connection pool at 42% capacity,14.79,False
+2026-06-01 00:46:00.000000,INFO,payment-service,scheduled health check passed,14.75,False
+2026-06-01 00:04:00.000000,INFO,payment-service,scheduled health check passed,14.5,False
+2026-06-01 00:51:45.000000,INFO,payment-service,request completed in 264ms,14.43,False
+2026-06-01 00:37:35.000000,INFO,api-gateway,scheduled health check passed,14.38,False
+2026-06-01 00:35:08.000000,INFO,api-gateway,scheduled health check passed,14.38,False
+2026-06-01 00:34:12.000000,INFO,web-frontend,scheduled health check passed,14.38,False
+2026-06-01 00:47:20.000000,INFO,db-primary,scheduled health check passed,14.34,False
+2026-06-01 06:19:36.000000,INFO,db-primary,GET /api/v1/orders status=200,14.31,False
+2026-06-01 00:04:40.000000,INFO,api-gateway,scheduled health check passed,14.16,False
+2026-06-01 05:28:53.000000,INFO,web-frontend,scheduled health check passed,14.03,False
+2026-06-01 04:11:55.000000,INFO,web-frontend,connection pool at 42% capacity,14.02,False
+2026-06-01 01:33:43.000000,INFO,db-primary,request completed in 248ms,13.96,False
+2026-06-01 05:37:48.000000,INFO,db-primary,GET /api/v1/products status=200,13.96,False
+2026-06-01 05:17:21.000000,INFO,payment-service,GET /api/v1/products status=200,13.95,False
+2026-06-01 00:03:07.000000,INFO,api-gateway,user 6054 logged out,13.92,False
+2026-06-01 04:19:12.000000,INFO,api-gateway,GET /api/v1/products status=200,13.91,False
+2026-06-01 05:52:19.000000,INFO,payment-service,GET /api/v1/products status=200,13.84,False
+2026-06-01 03:57:29.000000,INFO,web-frontend,request completed in 156ms,13.77,False
+2026-06-01 03:10:56.000000,INFO,api-gateway,scheduled health check passed,13.77,False
+2026-06-01 04:19:50.000000,INFO,auth-service,cache hit for key session:7585,13.75,False
+2026-06-01 02:33:08.000000,INFO,auth-service,cache hit for key session:5479,13.71,False
+2026-06-01 04:22:59.000000,INFO,api-gateway,cache hit for key session:2663,13.7,False
+2026-06-01 05:54:15.000000,INFO,auth-service,GET /api/v1/orders status=200,13.66,False
+2026-06-01 00:59:04.000000,INFO,payment-service,cache hit for key session:4193,13.65,False
+2026-06-01 04:51:34.000000,INFO,payment-service,cache hit for key session:3601,13.64,False
+2026-06-01 01:44:41.000000,INFO,payment-service,user 1666 logged in,13.63,False
+2026-06-01 00:43:06.000000,INFO,web-frontend,connection pool at 42% capacity,13.42,False
+2026-06-01 00:13:04.000000,INFO,db-primary,request completed in 223ms,13.38,False
+2026-06-01 01:24:03.000000,INFO,payment-service,request completed in 153ms,13.31,False
+2026-06-01 00:47:06.000000,INFO,auth-service,request completed in 101ms,13.26,False
+2026-06-01 03:17:53.000000,INFO,db-primary,connection pool at 42% capacity,13.14,False
+2026-06-01 01:43:22.000000,INFO,db-primary,request completed in 207ms,13.12,False
+2026-06-01 00:21:10.000000,INFO,auth-service,connection pool at 42% capacity,13.06,False
+2026-06-01 02:24:04.000000,INFO,db-primary,user 8080 logged out,13.04,False
+2026-06-01 00:18:05.000000,INFO,auth-service,request completed in 292ms,12.91,False
+2026-06-01 02:20:37.000000,INFO,db-primary,request completed in 164ms,12.83,False
+2026-06-01 07:22:47.000000,INFO,web-frontend,GET /api/v1/orders status=200,12.82,False
+2026-06-01 01:53:10.000000,INFO,auth-service,connection pool at 42% capacity,12.8,False
+2026-06-01 00:18:49.000000,INFO,db-primary,user 2087 logged in,12.79,False
+2026-06-01 01:34:56.000000,INFO,web-frontend,user 3571 logged in,12.6,False
+2026-06-01 02:40:06.000000,INFO,web-frontend,request completed in 284ms,12.58,False
+2026-06-01 00:03:12.000000,INFO,auth-service,user 6317 logged in,12.54,False
+2026-06-01 00:26:43.000000,INFO,db-primary,request completed in 295ms,12.53,False
+2026-06-01 00:45:55.000000,INFO,payment-service,scheduled health check passed,12.4,False
+2026-06-01 02:46:40.000000,INFO,payment-service,connection pool at 42% capacity,12.39,False
+2026-06-01 01:32:49.000000,INFO,api-gateway,user 3645 logged out,12.37,False
+2026-06-01 00:02:32.000000,INFO,api-gateway,request completed in 268ms,12.32,False
+2026-06-01 01:39:44.000000,INFO,api-gateway,user 1889 logged out,12.32,False
+2026-06-01 04:34:10.000000,INFO,payment-service,GET /api/v1/products status=200,12.3,False
+2026-06-01 04:08:54.000000,INFO,auth-service,GET /api/v1/products status=200,12.28,False
+2026-06-01 00:19:02.000000,INFO,payment-service,connection pool at 42% capacity,12.24,False
+2026-06-01 00:01:16.000000,INFO,payment-service,connection pool at 42% capacity,12.24,False
+2026-06-01 07:21:49.000000,INFO,auth-service,user 1554 logged out,12.19,False
+2026-06-01 00:13:26.000000,INFO,auth-service,request completed in 239ms,12.15,False
+2026-06-01 00:09:21.000000,INFO,api-gateway,connection pool at 42% capacity,12.11,False
+2026-06-01 01:52:51.000000,INFO,db-primary,scheduled health check passed,12.04,False
+2026-06-01 02:02:24.000000,INFO,auth-service,cache hit for key session:1153,11.99,False
+2026-06-01 04:57:48.000000,INFO,api-gateway,GET /api/v1/orders status=200,11.99,False
+2026-06-01 03:13:16.000000,INFO,api-gateway,connection pool at 42% capacity,11.98,False
+2026-06-01 01:00:27.000000,INFO,payment-service,connection pool at 42% capacity,11.96,False
+2026-06-01 03:02:22.000000,INFO,web-frontend,connection pool at 42% capacity,11.95,False
+2026-06-01 03:01:02.000000,INFO,db-primary,cache hit for key session:9483,11.91,False
+2026-06-01 01:27:15.000000,INFO,db-primary,connection pool at 42% capacity,11.89,False
+2026-06-01 02:51:36.000000,INFO,web-frontend,scheduled health check passed,11.87,False
+2026-06-01 00:58:32.000000,INFO,api-gateway,cache hit for key session:5190,11.87,False
+2026-06-01 02:00:44.000000,INFO,web-frontend,connection pool at 42% capacity,11.86,False
+2026-06-01 00:04:58.000000,INFO,db-primary,connection pool at 42% capacity,11.84,False
+2026-06-01 00:49:28.000000,INFO,api-gateway,request completed in 137ms,11.84,False
+2026-06-01 00:15:41.000000,INFO,web-frontend,connection pool at 42% capacity,11.84,False
+2026-06-01 00:21:10.000000,INFO,payment-service,connection pool at 42% capacity,11.82,False
+2026-06-01 01:41:54.000000,INFO,api-gateway,user 5811 logged in,11.73,False
+2026-06-01 01:11:52.000000,INFO,auth-service,GET /api/v1/products status=200,11.64,False
+2026-06-01 01:05:29.000000,INFO,payment-service,user 3415 logged out,11.58,False
+2026-06-01 00:52:42.000000,INFO,db-primary,user 6340 logged in,11.57,False
+2026-06-01 02:21:14.000000,INFO,auth-service,connection pool at 42% capacity,11.47,False
+2026-06-01 01:00:39.000000,INFO,db-primary,cache hit for key session:7882,11.44,False
+2026-06-01 01:23:30.000000,INFO,db-primary,connection pool at 42% capacity,11.43,False
+2026-06-01 07:08:01.000000,INFO,payment-service,user 6319 logged out,11.43,False
+2026-06-01 00:53:37.000000,INFO,auth-service,cache hit for key session:6080,11.42,False
+2026-06-01 00:02:53.000000,INFO,web-frontend,user 3181 logged in,11.42,False
+2026-06-01 01:42:31.000000,INFO,payment-service,connection pool at 42% capacity,11.26,False
+2026-06-01 00:22:59.000000,INFO,db-primary,cache hit for key session:8519,11.19,False
+2026-06-01 06:01:52.000000,INFO,payment-service,GET /api/v1/orders status=200,11.12,False
+2026-06-01 01:48:47.000000,INFO,auth-service,connection pool at 42% capacity,11.12,False
+2026-06-01 02:23:12.000000,INFO,web-frontend,cache hit for key session:7939,11.11,False
+2026-06-01 00:51:18.000000,INFO,auth-service,GET /api/v1/products status=200,11.08,False
+2026-06-01 03:23:19.000000,INFO,auth-service,GET /api/v1/products status=200,11.07,False
+2026-06-01 02:35:57.000000,INFO,api-gateway,scheduled health check passed,11.06,False
+2026-06-01 03:25:39.000000,INFO,db-primary,GET /api/v1/products status=200,11.03,False
+2026-06-01 02:34:00.000000,INFO,payment-service,connection pool at 42% capacity,11.0,False
+2026-06-01 02:39:46.000000,INFO,payment-service,connection pool at 42% capacity,10.86,False
+2026-06-01 01:46:45.000000,INFO,auth-service,GET /api/v1/products status=200,10.79,False
+2026-06-01 00:43:06.000000,INFO,api-gateway,GET /api/v1/products status=200,10.74,False
+2026-06-01 02:56:55.000000,INFO,web-frontend,GET /api/v1/products status=200,10.73,False
+2026-06-01 02:47:44.000000,INFO,auth-service,scheduled health check passed,10.7,False
+2026-06-01 00:38:21.000000,INFO,auth-service,cache hit for key session:2667,10.7,False
+2026-06-01 00:02:13.000000,INFO,db-primary,user 5737 logged in,10.69,False
+2026-06-01 00:05:22.000000,INFO,web-frontend,cache hit for key session:4814,10.68,False
+2026-06-01 00:44:34.000000,INFO,api-gateway,cache hit for key session:2219,10.63,False
+2026-06-01 00:07:29.000000,INFO,payment-service,GET /api/v1/products status=200,10.63,False
+2026-06-01 02:04:24.000000,INFO,db-primary,GET /api/v1/products status=200,10.58,False
+2026-06-01 00:07:48.000000,INFO,web-frontend,GET /api/v1/products status=200,10.48,False
+2026-06-01 00:29:27.000000,INFO,db-primary,cache hit for key session:6625,10.41,False
+2026-06-01 00:11:52.000000,INFO,payment-service,GET /api/v1/products status=200,10.39,False
+2026-06-01 00:02:52.000000,INFO,db-primary,user 1994 logged out,10.37,False
+2026-06-01 07:55:43.000000,INFO,api-gateway,user 4164 logged out,10.23,False
+2026-06-01 00:00:21.000000,INFO,db-primary,cache hit for key session:3119,10.23,False
+2026-06-01 01:42:34.000000,INFO,web-frontend,scheduled health check passed,10.2,False
+2026-06-01 00:24:13.000000,INFO,payment-service,GET /api/v1/products status=200,10.19,False
+2026-06-01 00:34:58.000000,INFO,api-gateway,cache hit for key session:8440,10.14,False
+2026-06-01 02:39:39.000000,INFO,api-gateway,GET /api/v1/products status=200,10.07,False
+2026-06-01 00:16:29.000000,INFO,payment-service,GET /api/v1/products status=200,10.02,False
+2026-06-01 00:10:27.000000,INFO,payment-service,cache hit for key session:9493,9.98,False
+2026-06-01 01:38:16.000000,INFO,db-primary,GET /api/v1/products status=200,9.86,False
+2026-06-01 02:08:36.000000,INFO,auth-service,cache hit for key session:8916,9.84,False
+2026-06-01 03:00:51.000000,INFO,payment-service,scheduled health check passed,9.78,False
+2026-06-01 02:21:07.000000,INFO,api-gateway,cache hit for key session:1943,9.78,False
+2026-06-01 00:00:34.000000,INFO,db-primary,user 9617 logged out,9.67,False
+2026-06-01 02:59:00.000000,INFO,web-frontend,cache hit for key session:6944,9.64,False
+2026-06-01 02:23:51.000000,INFO,db-primary,cache hit for key session:3075,9.64,False
+2026-06-01 01:57:06.000000,INFO,payment-service,GET /api/v1/orders status=200,9.61,False
+2026-06-01 01:29:32.000000,INFO,web-frontend,cache hit for key session:9550,9.59,False
+2026-06-01 02:23:15.000000,INFO,auth-service,cache hit for key session:1932,9.58,False
+2026-06-01 01:20:48.000000,INFO,auth-service,cache hit for key session:6228,9.54,False
+2026-06-01 03:28:41.000000,INFO,payment-service,GET /api/v1/orders status=200,9.5,False
+2026-06-01 01:06:19.000000,INFO,db-primary,cache hit for key session:2377,9.48,False
+2026-06-01 01:41:33.000000,INFO,api-gateway,cache hit for key session:2802,9.46,False
+2026-06-01 01:13:48.000000,INFO,web-frontend,cache hit for key session:3304,9.46,False
+2026-06-01 01:03:54.000000,INFO,web-frontend,GET /api/v1/products status=200,9.39,False
+2026-06-01 02:11:50.000000,INFO,db-primary,cache hit for key session:4044,9.36,False
+2026-06-01 00:01:08.000000,INFO,api-gateway,user 6991 logged out,9.35,False
+2026-06-01 03:19:15.000000,INFO,payment-service,scheduled health check passed,9.27,False
+2026-06-01 01:15:00.000000,INFO,api-gateway,cache hit for key session:4525,9.26,False
+2026-06-01 01:22:21.000000,INFO,api-gateway,GET /api/v1/products status=200,9.25,False
+2026-06-01 01:00:44.000000,INFO,auth-service,scheduled health check passed,9.24,False
+2026-06-01 01:06:04.000000,INFO,web-frontend,GET /api/v1/products status=200,9.2,False
+2026-06-01 00:00:23.000000,INFO,auth-service,user 4078 logged out,9.17,False
+2026-06-01 01:44:24.000000,INFO,payment-service,GET /api/v1/products status=200,9.14,False
+2026-06-01 02:25:47.000000,INFO,payment-service,cache hit for key session:3004,9.08,False
+2026-06-01 01:26:49.000000,INFO,auth-service,GET /api/v1/products status=200,9.0,False
+2026-06-01 04:17:11.000000,INFO,web-frontend,GET /api/v1/orders status=200,8.97,False
+2026-06-01 04:46:50.000000,INFO,auth-service,user 2655 logged in,8.9,False
+2026-06-01 04:27:47.000000,INFO,payment-service,user 4259 logged in,8.9,False
+2026-06-01 00:20:16.000000,INFO,web-frontend,scheduled health check passed,8.74,False
+2026-06-01 02:32:32.000000,INFO,payment-service,scheduled health check passed,8.66,False
+2026-06-01 03:10:23.000000,INFO,db-primary,GET /api/v1/orders status=200,8.32,False
+2026-06-01 02:20:01.000000,INFO,auth-service,user 1930 logged out,8.07,False
+2026-06-01 01:46:47.000000,INFO,api-gateway,scheduled health check passed,7.91,False
+2026-06-01 03:26:14.000000,INFO,auth-service,user 9155 logged in,7.55,False
+2026-06-01 02:25:30.000000,INFO,api-gateway,scheduled health check passed,7.51,False
+2026-06-01 01:58:13.000000,INFO,db-primary,scheduled health check passed,7.46,False
+2026-06-01 02:38:11.000000,INFO,auth-service,scheduled health check passed,7.44,False
+2026-06-01 05:08:11.000000,INFO,payment-service,user 9695 logged out,7.34,False
+2026-06-01 02:22:39.000000,INFO,payment-service,user 4459 logged in,7.3,False
+2026-06-01 00:32:19.000000,INFO,auth-service,GET /api/v1/orders status=200,7.25,False
+2026-06-01 03:02:21.000000,INFO,db-primary,GET /api/v1/orders status=200,7.25,False
+2026-06-01 00:47:13.000000,INFO,db-primary,GET /api/v1/orders status=200,7.25,False
+2026-06-01 00:33:44.000000,INFO,payment-service,scheduled health check passed,7.13,False
+2026-06-01 00:00:00.000000,INFO,auth-service,scheduled health check passed,6.99,False
+2026-06-01 00:21:42.000000,INFO,api-gateway,scheduled health check passed,6.99,False
+2026-06-01 00:03:51.000000,INFO,payment-service,scheduled health check passed,6.9,False
+2026-06-01 02:42:05.000000,INFO,api-gateway,scheduled health check passed,6.7,False
+2026-06-01 01:38:02.000000,INFO,api-gateway,scheduled health check passed,6.7,False
+2026-06-01 00:24:18.000000,INFO,web-frontend,GET /api/v1/orders status=200,6.68,False
+2026-06-01 00:23:57.000000,INFO,api-gateway,scheduled health check passed,6.66,False
+2026-06-01 05:32:35.000000,INFO,db-primary,user 1356 logged in,6.65,False
+2026-06-01 00:06:29.000000,INFO,web-frontend,scheduled health check passed,6.61,False
+2026-06-01 00:36:46.000000,INFO,auth-service,user 6786 logged out,6.52,False
+2026-06-01 00:22:50.000000,INFO,auth-service,scheduled health check passed,6.51,False
+2026-06-01 02:51:57.000000,INFO,api-gateway,GET /api/v1/orders status=200,6.47,False
+2026-06-01 00:02:40.000000,INFO,web-frontend,scheduled health check passed,6.47,False
+2026-06-01 01:17:31.000000,INFO,db-primary,scheduled health check passed,6.39,False
+2026-06-01 00:46:19.000000,INFO,api-gateway,scheduled health check passed,6.38,False
+2026-06-01 00:13:21.000000,INFO,api-gateway,scheduled health check passed,6.38,False
+2026-06-01 00:57:21.000000,INFO,web-frontend,scheduled health check passed,6.33,False
+2026-06-01 00:11:10.000000,INFO,db-primary,scheduled health check passed,6.33,False
+2026-06-01 00:04:19.000000,INFO,api-gateway,scheduled health check passed,6.33,False
+2026-06-01 00:49:39.000000,INFO,db-primary,GET /api/v1/orders status=200,6.23,False
+2026-06-01 00:58:25.000000,INFO,web-frontend,GET /api/v1/orders status=200,6.18,False
+2026-06-01 00:39:14.000000,INFO,api-gateway,GET /api/v1/orders status=200,6.18,False
+2026-06-01 03:51:53.000000,INFO,payment-service,user 2231 logged in,6.05,False
+2026-06-01 00:42:52.000000,INFO,auth-service,user 8855 logged in,6.02,False
+2026-06-01 02:09:50.000000,INFO,auth-service,GET /api/v1/orders status=200,5.95,False
+2026-06-01 00:02:38.000000,INFO,payment-service,GET /api/v1/orders status=200,5.95,False
+2026-06-01 02:50:19.000000,INFO,auth-service,user 7528 logged in,5.91,False
+2026-06-01 02:07:58.000000,INFO,db-primary,GET /api/v1/orders status=200,5.78,False
+2026-06-01 02:44:42.000000,INFO,api-gateway,GET /api/v1/orders status=200,5.75,False
+2026-06-01 04:15:02.000000,INFO,auth-service,user 3678 logged in,5.64,False
+2026-06-01 03:09:42.000000,INFO,auth-service,user 1152 logged in,5.54,False
+2026-06-01 00:52:32.000000,INFO,auth-service,user 9318 logged out,5.52,False
+2026-06-01 01:19:19.000000,INFO,payment-service,GET /api/v1/orders status=200,5.44,False
+2026-06-01 03:11:00.000000,INFO,auth-service,user 5187 logged out,5.36,False
+2026-06-01 01:23:54.000000,INFO,web-frontend,GET /api/v1/orders status=200,5.34,False
+2026-06-01 03:37:51.000000,INFO,db-primary,user 1218 logged in,5.17,False
+2026-06-01 01:20:37.000000,INFO,db-primary,user 5105 logged out,5.15,False
+2026-06-01 01:12:43.000000,INFO,payment-service,user 1241 logged in,5.02,False
+2026-06-01 01:27:53.000000,INFO,api-gateway,GET /api/v1/orders status=200,4.92,False
+2026-06-01 01:03:56.000000,INFO,api-gateway,GET /api/v1/orders status=200,4.86,False
+2026-06-01 01:08:35.000000,INFO,api-gateway,GET /api/v1/orders status=200,4.84,False
+2026-06-01 00:33:04.000000,INFO,api-gateway,user 7525 logged out,4.8,False
+2026-06-01 01:24:14.000000,INFO,auth-service,GET /api/v1/orders status=200,4.6,False
+2026-06-01 01:17:45.000000,INFO,web-frontend,GET /api/v1/orders status=200,4.57,False
+2026-06-01 01:54:14.000000,INFO,auth-service,GET /api/v1/orders status=200,4.54,False
+2026-06-01 00:41:23.000000,INFO,auth-service,user 5584 logged out,4.53,False
+2026-06-01 01:31:45.000000,INFO,auth-service,GET /api/v1/orders status=200,4.44,False
+2026-06-01 01:30:47.000000,INFO,db-primary,GET /api/v1/orders status=200,4.4,False
+2026-06-01 01:34:23.000000,INFO,api-gateway,GET /api/v1/orders status=200,4.37,False
+2026-06-01 01:36:41.000000,INFO,db-primary,GET /api/v1/orders status=200,4.37,False
+2026-06-01 02:30:55.000000,INFO,db-primary,user 1057 logged in,4.28,False
+2026-06-01 00:28:07.000000,INFO,web-frontend,user 4969 logged in,3.85,False
+2026-06-01 00:55:55.000000,INFO,web-frontend,user 2541 logged in,3.36,False
+2026-06-01 02:30:43.000000,INFO,web-frontend,user 4566 logged out,3.26,False
+2026-06-01 01:31:53.000000,INFO,api-gateway,user 8776 logged out,3.19,False
+2026-06-01 01:19:23.000000,INFO,api-gateway,user 7288 logged out,3.16,False
+2026-06-01 01:34:48.000000,INFO,db-primary,user 6709 logged in,3.04,False
+2026-06-01 00:18:22.000000,INFO,api-gateway,user 7365 logged out,2.84,False
+2026-06-01 01:15:09.000000,INFO,auth-service,user 2848 logged out,2.82,False
+2026-06-01 01:15:00.000000,INFO,db-primary,user 9122 logged out,2.69,False
+2026-06-01 02:16:00.000000,INFO,web-frontend,user 2152 logged out,2.65,False
+2026-06-01 02:37:57.000000,INFO,payment-service,user 7218 logged out,2.64,False
+2026-06-01 03:04:26.000000,INFO,auth-service,user 1751 logged in,2.31,False
+2026-06-01 02:37:49.000000,INFO,api-gateway,user 2940 logged out,2.28,False
+2026-06-01 00:00:51.000000,INFO,api-gateway,user 2408 logged in,2.08,False
+2026-06-01 00:00:03.000000,INFO,web-frontend,user 6796 logged in,2.08,False
+2026-06-01 00:29:25.000000,INFO,api-gateway,user 5126 logged in,2.06,False
+2026-06-01 00:30:25.000000,INFO,payment-service,user 9032 logged out,2.01,False
+2026-06-01 00:13:45.000000,INFO,payment-service,user 3725 logged out,1.98,False
+2026-06-01 00:14:55.000000,INFO,api-gateway,user 4612 logged out,1.94,False
+2026-06-01 02:38:23.000000,INFO,web-frontend,user 5357 logged in,1.84,False
+2026-06-01 00:35:58.000000,INFO,web-frontend,user 5704 logged out,1.7,False
+2026-06-01 00:35:46.000000,INFO,payment-service,user 6844 logged out,1.7,False
+2026-06-01 00:48:29.000000,INFO,db-primary,user 4694 logged in,1.66,False
+2026-06-01 00:02:53.000000,INFO,auth-service,user 7955 logged out,1.61,False
+2026-06-01 00:15:56.000000,INFO,auth-service,user 6745 logged out,1.58,False
+2026-06-01 01:05:10.000000,INFO,payment-service,user 1188 logged in,1.37,False
+2026-06-01 00:52:49.000000,INFO,api-gateway,user 8211 logged in,1.2,False
+2026-06-01 02:25:25.000000,INFO,db-primary,user 8527 logged in,1.07,False
+2026-06-01 02:16:52.000000,INFO,db-primary,user 1308 logged in,1.06,False
+2026-06-01 02:57:44.000000,INFO,db-primary,user 7060 logged in,1.06,False
+2026-06-01 02:56:27.000000,INFO,api-gateway,user 3781 logged in,1.04,False
+2026-06-01 00:19:56.000000,INFO,auth-service,user 6537 logged in,0.95,False
+2026-06-01 01:29:09.000000,INFO,auth-service,user 3267 logged in,0.88,False
+2026-06-01 00:16:41.000000,INFO,db-primary,user 1171 logged in,0.84,False
+2026-06-01 00:47:03.000000,INFO,payment-service,user 8778 logged in,0.81,False
+2026-06-01 00:52:08.000000,INFO,db-primary,user 6117 logged in,0.79,False
+2026-06-01 00:26:43.000000,INFO,payment-service,user 5295 logged in,0.79,False
+2026-06-01 00:01:52.000000,INFO,db-primary,user 4374 logged in,0.68,False
+2026-06-01 00:39:31.000000,INFO,auth-service,user 9652 logged in,0.55,False
+2026-06-01 00:14:27.000000,INFO,db-primary,user 8481 logged in,0.49,False
+2026-06-01 00:22:49.000000,INFO,web-frontend,user 5312 logged in,0.4,False
+2026-06-01 00:11:05.000000,INFO,web-frontend,user 4231 logged in,0.15,False
+2026-06-01 00:11:09.000000,INFO,api-gateway,user 5116 logged in,0.13,False
+2026-06-01 00:09:42.000000,INFO,auth-service,user 7153 logged in,0.0,False
